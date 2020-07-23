@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black"
+    android:padding="20dp"
+    android:orientation="vertical"
+    tools:context=".AddActivity">
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/icon"
+        android:layout_gravity="center_horizontal"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:fontFamily="@font/roboto_medium"
+        android:lineHeight="30sp"
+        android:hint="Add word"
+        android:id="@+id/word"
+        android:textColorHint="#FFD600"
+        android:backgroundTint="#FFD600"
+        android:textStyle="bold"
+        android:textColor="#FFD600"
+        android:textSize="36sp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textColor="#fff"
+        android:id="@+id/des"
+        android:hint="Add word description"
+        android:backgroundTint="#fff"
+        android:textColorHint="#fff"
+        android:textSize="16sp"
+        android:textStyle="bold"/>
+
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinner"
+        android:background="#FFD600"
+        android:layout_marginTop="20dp"/>
+
+    <Button
+        android:layout_width="240dp"
+        android:layout_height="64dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="100dp"
+        android:textColor="@android:color/white"
+        android:text="Add word"
+        android:textSize="24sp"
+        android:id="@+id/add_word"
+        android:fontFamily="@font/roboto_medium"
+        android:background="@drawable/button_back"/>
+
+</LinearLayout>

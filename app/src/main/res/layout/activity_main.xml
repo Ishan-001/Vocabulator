@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@android:color/black"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/icon"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center_horizontal"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:fontFamily="@font/roboto_medium"
+        android:lineHeight="30sp"
+        android:text="Vocabulator"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#FFD600"
+        android:textSize="36sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#fff"
+        android:text="To make you better with words"
+        android:textSize="16sp"
+        android:textStyle="bold"/>
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/dictionary"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center_horizontal"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:layout_width="240dp"
+            android:layout_height="64dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="100dp"
+            android:textColor="@android:color/white"
+            android:text="Add words"
+            android:textSize="24sp"
+            android:textAllCaps="false"
+            android:layout_above="@+id/my_words"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/add_words"
+            android:fontFamily="@font/roboto_medium"
+            android:background="@drawable/button_back"/>
+
+        <Button
+            android:layout_width="240dp"
+            android:layout_height="64dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="25dp"
+            android:textColor="@android:color/white"
+            android:text="My words"
+            android:textAllCaps="false"
+            android:textSize="24sp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="50dp"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/my_words"
+            android:fontFamily="@font/roboto_medium"
+            android:background="@drawable/button_back"/>
+
+    </RelativeLayout>
+
+</androidx.appcompat.widget.LinearLayoutCompat>

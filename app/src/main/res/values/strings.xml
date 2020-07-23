@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Vocabulator</string>
+
+    <string-array name="Type">
+        <item>Noun</item>
+        <item>Verb</item>
+        <item>Pronoun</item>
+        <item>Adjective</item>
+    </string-array>
+</resources>
